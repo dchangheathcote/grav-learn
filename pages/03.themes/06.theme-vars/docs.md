@@ -69,7 +69,7 @@ The `{{ language_codes }}` returns list of available languages of the site.
 {% do assets.addCss('theme://css/foo.css') %}
 {% do assets.addInlineCss('a { color: red; }') %}
 {% do assets.addJs('theme://js/something.js') %}
-{% do assets.addInlineJs('alert("Warming!");') %}
+{% do assets.addInlineJs('alert("Warning!");') %}
 [/prism]
 
 Read more about [Asset Manager](/themes/asset-manager).
